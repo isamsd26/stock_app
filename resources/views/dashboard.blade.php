@@ -1,6 +1,8 @@
 @extends('layouts.base', ['title' => 'Dashboard'])
 
 @section('content')
+<div class="p-3 rounded-xl bg-indigo-600 text-white">Tailwind OK</div>
+
     <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6">
         <div class="rounded-2xl p-6 bg-gradient-to-br from-indigo-600 to-violet-600 text-white shadow-lg">
             <p class="text-sm/5 opacity-90">Total Produk</p>
